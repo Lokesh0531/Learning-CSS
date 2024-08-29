@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <marquee behavior="solid" direction="left">
+        <img class="img" src="/img/img1.png" alt="">
+        <img class="img"src="/img/img2.png" alt="">
+        <img class="img" src="/img/img3.png" alt="">
+        <img class="img"src="/img/img4.png" alt="">
+        <img class="img" src="/img/img5.png" alt="">
+        <img class="img"src="/img/img6.png" alt="">
+        <img class="img" src="/img/img1.png" alt="">
+        <img class="img"src="/img/img2.png" alt="">
+        <img class="img" src="/img/img3.png" alt="">
+        <img class="img"src="/img/img4.png" alt="">
+        <img class="img" src="/img/img5.png" alt="">
+        <img class="img"src="/img/img6.png" alt="">
+        <img class="img" src="/img/img1.png" alt="">
+        <img class="img"src="/img/img2.png" alt="">
+        <img class="img" src="/img/img3.png" alt="">
+        <img class="img"src="/img/img4.png" alt="">
+        <img class="img" src="/img/img5.png" alt="">
+        <img class="img"src="/img/img6.png" alt="">
+        <img class="img" src="/img/img1.png" alt="">
+        <img class="img"src="/img/img2.png" alt="">
+        <img class="img" src="/img/img3.png" alt="">
+        <img class="img"src="/img/img4.png" alt="">
+        <img class="img" src="/img/img5.png" alt="">
+        <img class="img"src="/img/img6.png" alt="">
+        <img class="img" src="/img/img1.png" alt="">
+        <img class="img"src="/img/img2.png" alt="">
+        <img class="img" src="/img/img3.png" alt="">
+        <img class="img"src="/img/img4.png" alt="">
+        <img class="img" src="/img/img5.png" alt="">
+        <img class="img"src="/img/img6.png" alt="">
+        <img class="img" src="/img/img1.png" alt="">
+        <img class="img"src="/img/img2.png" alt="">
+        <img class="img" src="/img/img3.png" alt="">
+        <img class="img"src="/img/img4.png" alt="">
+        <img class="img" src="/img/img5.png" alt="">
+        <img class="img"src="/img/img6.png" alt="">
+
+        
+    </marquee>
+    
+    <!-- <div class="animation"></div> -->
+
+    <div id="text">
+        <b>L</b>
+        <b>O</b>
+        <b>K</b>
+        <b>E</b>
+        <b>S</b>
+        <b>H</b>
+    </div>
+
+
+    <img class="krishna" src="https://cdnb.artstation.com/p/assets/images/images/047/312/359/original/lavanya-agrawal-ezgif-com-gif-maker.gif?1647294589" alt="">
+
+    <br><br><br><br><br>
+    <span id="text-group">
+        
+    <p class="text7" style="margin-top: 10%; margin-right: 30%;">नन्द के आनंद भयो, जय कन्हैया लाल की,</p>
+    <p class="text8" style="margin-top: 10%; margin-right: 30%;">हाथी घोड़ा पालकी, जय कन्हैया लाल की।</p>
+    <p class="text9" style="margin-top: 10%; margin-right: 30%;">श्री कृष्ण जन्माष्टमी की शुभकामनाएं!</p>
+    </span>
+
+    <audio src="img/tune.mp3" type="audio/mp3"></audio>
+
+    <style>
+
+        .img{
+       
+            width: 30px;
+        }
+
+    /* .animation{
+        width: 200px;
+        height: 200px;
+        border-radius: 30px;
+        background-color: red;
+        position: relative;
+        -webkit-animation: lokesh;
+        animation-duration: 5s;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+    }
+
+    @-webkit-keyframes lokesh {
+
+        0% {background: red; left: 0px; top: 0px; }
+        25% {background: blue; left:  1100px; top: 0px; border-radius: 360%;}
+        75% {background: orange; left: 600px; top: 450px;}
+        100% {background: yellow; left: 0px; top: 0px;}
+    } */
+
+
+    #text{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: sans-serif;
+        letter-spacing: 1rem;
+        font-weight: 700;
+        position: relative;
+        transform-style:preserve-3d;
+        -webkit-transform-style: preserve-3d;
+        -webkit-perspective: 100px;
+        
+    }
+
+    #text b{
+        text-align: center;
+        border-radius: 30px;
+        height: 3.5rem;
+        box-shadow: 0 .4rem .3rem -.3rem #aaa;
+        color: #979c9f;
+        background: red;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-transform-origin: bottom;
+        -webkit-transform: rotateX(-85deg);
+        animation:getUp;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+
+    }
+
+    #text>b:nth-child(2){
+        animation-delay: 0.25s;
+        background-color: #ef5350;
+    }
+
+    #text>b:nth-child(3){
+        animation-delay: 0.50s;
+        background-color: #ab47bc;
+    }
+
+    #text>b:nth-child(4){
+        animation-delay: 0.75s;
+         background-color: #651fff;
+    }
+
+    #text>b:nth-child(5){
+        background-color: #3949ab;
+    }
+
+    #text>b:nth-child(6){
+        background-color: #2196f3;
+        
+    }
+
+    @keyframes getUp{
+        10%,50%{
+            transform: rotateX(0);
+        }
+        0%,60%,100%{
+            transform: rotateX(-85deg);
+        }
+    }
+
+
+    .krishna{
+        position: absolute;
+        top: 38%;
+        width: 30%;
+        left: 10%;
+
+    }
+
+    .text7{
+        font-size: 0.5rem;
+        position: absolute;
+        right: 8%;
+        top: 40%;
+        text-shadow: 3px 6px 3px rgba(0,0,0,0.4),
+                     3px 3px 13px rgba(0,0,0,0.1),
+                     3px 3px 23px rgba(0,0,0,0.1); 
+    }
+
+    .text8{
+        font-size: 0.5rem;
+        position: absolute;
+        right: 8%;
+        top: 50%;
+        text-shadow: 3px 6px 3px rgba(0,0,0,0.4),
+                     3px 3px 13px rgba(0,0,0,0.1),
+                     3px 3px 23px rgba(0,0,0,0.1); 
+    }
+
+    .text9{
+        font-size: 0.5rem;
+        position: absolute;
+        right: 8%;
+        top: 60%;
+        text-shadow: 3px 6px 3px rgba(0,0,0,0.4),
+                     3px 3px 13px rgba(0,0,0,0.1),
+                     3px 3px 23px rgba(0,0,0,0.1); 
+    }
+
+    </style>
+</body>
+</html>

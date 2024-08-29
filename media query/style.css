@@ -1,0 +1,111 @@
+/* @media (min-width: 320px){
+    h1{
+        background-color: orange;
+        color: white;
+        background-image: url(https://burst.shopifycdn.com/photos/city-lights-through-rain-window.jpg?width=1000&format=pjpg&exif=0&iptc=0);
+        background-size:cover;
+        
+        font-size: 40px;
+        border-radius: 30px;
+        text-align: center;
+        box-shadow: 2px 2px 2px black;
+        
+    }
+}
+
+@media (min-width: 768px){
+    h1{
+        background-color: green;
+        color: white;
+        background-image: url(https://wallpapers.com/images/featured/best-ever-desktop-bgt6dccypy1dfk0c.jpg);
+        background-size: contain;
+        font-size: 50px;
+        border-radius: 30px;
+        text-align: center;
+        box-shadow: 2px 2px 2px black;
+    }
+}
+
+@media (min-width: 1024px){
+    h1{
+    
+        color: white;
+        background-image: url(https://preview.redd.it/best-app-with-the-highest-quality-wallpapers-video-v0-oa2krnhvnhob1.jpg?width=1080&crop=smart&auto=webp&s=13dff481379c91f4298537cb3a4639d41cb7f235);
+        background-size: contain;
+        font-size: 60px;
+        border-radius: 30px;
+        text-align: center;
+        box-shadow: 2px 2px 2px black;
+        
+    }
+}
+
+@media (min-width: 1224px){
+    h1{
+
+        color: white;
+        background-image: url(https://i.pinimg.com/474x/d1/45/e4/d145e4c50f1899cba327dcc43c03638e.jpg);
+        background-size: cover;
+        font-size: 70px;
+        border-radius: 30px;
+        text-align: center;
+        box-shadow: 2px 2px 2px black;
+
+    }
+} */
+
+.container{
+    position: relative;
+    display: flex;
+}
+
+div{
+    position: absolute;
+    border-radius: 360px;
+    margin: 200px;
+    margin-top: 100px;
+}
+
+.circle1{
+    left: 200px;
+    background-color: red;
+    width: 300px;
+    height: 300px;
+
+}
+
+.circle1:hover{
+    z-index: 1;
+}
+
+.circle2:hover{
+    z-index: 1;
+}
+
+.circle3:hover{
+    z-index: 1;
+}
+
+.circle2{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    right: 300px;
+}
+
+.circle3{
+    background-color: orange;
+    width: 300px;
+    height: 300px;
+    top: 120px;
+    right: 200px;
+
+}
+
+
+/* @media (min-width: 600px) and (max-width: 800px){
+    body{
+        text-align: center;
+        background-color: black;
+    }
+} */

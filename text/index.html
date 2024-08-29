@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    body{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        font-size: 45px;
+        line-height: 0;
+        background: #e57eff;
+        font-family:  'Baloo 2', cursive;
+        color: white;
+        user-select: none;
+        
+    }
+
+    p{
+        margin: 1.5em 1em;
+    }
+
+    .text1{
+        text-shadow: 2px 2px red;
+    }
+
+    .text2 {
+        text-shadow:   0 1px 0 #ccc, 
+               0 2px 0 #c9c9c9,
+               0 3px 0 gold,
+               0 4px 0 blue,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15),
+               0 30px 20px rgba(0,0,0,.1);              
+}
+
+    .text3{
+        text-shadow: 0px 3px 2px #ccc, 
+               0px 8px 10px rgba(0,0,0,0.15), 
+               0px 12px 2px rgba(0,0,0,0.7);
+    }
+
+    .text4{
+        text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+    }
+
+    .text5{
+        -webkit-text-stroke: 2px #F8F8F8;
+        text-shadow: 0px 1px 4px #23430C;
+        color: #4a7e4e;
+    }
+
+    .text6{
+        text-shadow: 0 10px 8.896px #686868,
+        0 2px 5px #aeffb4;
+        letter-spacing: -4px;
+        color: #d85c13;
+    }
+
+    .text7{
+        position: absolute;
+        right: 8%;
+        top: 40%;
+        text-shadow: 3px 6px 3px rgba(0,0,0,0.4),
+                     3px 3px 13px rgba(0,0,0,0.1),
+                     3px 3px 23px rgba(0,0,0,0.1);  
+    }
+
+    .text8{
+        position: absolute;
+        right: 8%;
+        top: 50%;
+        text-shadow: 3px 6px 3px rgba(0,0,0,0.4),
+                     3px 3px 13px rgba(0,0,0,0.1),
+                     3px 3px 23px rgba(0,0,0,0.1); 
+    }
+
+    .text9{
+        position: absolute;
+        right: 8%;
+        top: 60%;
+        text-shadow: 3px 6px 3px rgba(0,0,0,0.4),
+                     3px 3px 13px rgba(0,0,0,0.1),
+                     3px 3px 23px rgba(0,0,0,0.1); 
+    }
+
+    .krishna{
+        position: absolute;
+        top: 15%;
+        width: 40%;
+        left: 10%;
+
+    }
+
+    .animation{
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        position: relative;
+        -webkit-animation: lokesh;
+        animation-duration: 10s;
+        animation-delay: 1s;
+        animation-iteration-count: 3;
+    }
+
+    @-webkit-keyframes lokesh {
+
+        0% {background: red; left: 0px; top: 0px;}
+        25% {background: blue; right: 0px; top: 0px;}
+        75% {background: orange; left: 0px; top: 0px;}
+        100% {background: yellow; left: 0px; top: 0px;}
+    }
+
+</style>
+<body>
+    
+    <p class="text1">Simple Shadow</p>
+    <p class="text2">3D type Shadow</p>
+    <p class="text3">Down and Distant</p>
+    <p class="text4">Close and Heavy</p>
+    <p class="text5">Outline Shadow</p>
+    <p class="text6">Hard Shadow</p>
+
+
+    <img class="krishna" src="https://cdnb.artstation.com/p/assets/images/images/047/312/359/original/lavanya-agrawal-ezgif-com-gif-maker.gif?1647294589" alt="">
+    <p class="text7">नन्द के आनंद भयो, जय कन्हैया लाल की,</p>
+    <p class="text8">हाथी घोड़ा पालकी, जय कन्हैया लाल की।</p>
+    <p class="text9">श्री कृष्ण जन्माष्टमी की शुभकामनाएं!</p>
+
+    
+    <div class="animation"></div>
+      
+
+</body>
+</html>

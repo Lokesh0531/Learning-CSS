@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+
+    <style>
+        .box{
+            height: 195px;
+            width: 195px;
+            border-radius: 6px;
+            background-image: linear-gradient(orange, rgb(255, 175, 89));
+            line-height: 95px;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            float: left;
+            margin-left: 30px;
+            transition: 1s ease-in-out;
+
+        }
+
+        .box-1:hover{
+            transform: translate(125px, 125px);
+        }
+
+        .box-2:hover{
+            transform: translateX(30px);
+        }
+
+        .box-3:hover{
+            transform: translateY(50px);
+        }
+
+        .box-4:hover{
+            transform: rotate(180deg);
+        }
+    </style>
+
+    <div style="margin-top:30px">
+        <div class="box box-1" >Translate</div>
+        <div class="box box-2">Translate X</div>
+        <div class="box box-3">Translate Y</div>
+        <div class="box box-4">Rotate</div>
+    </div>
+</body>
+</html>
